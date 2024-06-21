@@ -1,0 +1,61 @@
+.reiniciar {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ffadad;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana;
+    color: #fff;
+  }
+  
+  .reiniciar:hover {
+    background-color: #ff9090;
+  }
+  .mensaje-amor {
+    display: none;
+    position: absolute;
+   z-index: 100000;
+    width: 700px;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #000000;
+    color: #000000;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+  }
+  /* Estilo para el marcador */
+.marcador {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde arriba */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    width: 30px; /* Ancho del marcador */
+    height: 30px; /* Altura del marcador */
+    background-color: transparent; /* Fondo blanco */
+    cursor: pointer; /* Cursor apuntador */
+    z-index: 99; /* Asegura que esté sobre otros elementos, pero debajo del botón */
+  }
+  
+  /* Estilo para el botón de redirección */
+  .boton-redireccion {
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde abajo */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    color: #f5ebeb21; /* Color de texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cursor apuntador */
+    z-index: 100; /* Asegura que esté sobre otros elementos */
+    display: none; /* Inicialmente oculto */
+  }
+  
